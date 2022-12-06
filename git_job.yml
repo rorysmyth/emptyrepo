@@ -1,20 +1,11 @@
 resources:
   jobs:
-    git_job:
-      name: Git Job
-      email_notifications:
-        on_failure:
-          - rory.smyth@databricks.com
-        no_alert_for_skipped_runs: true
-      schedule:
-        quartz_cron_expression: 13 33 12 * * ?
-        timezone_id: Europe/Amsterdam
-        pause_status: PAUSED
+    demo:
+      name: Job edited live
       max_concurrent_runs: 1
       tasks:
-        - task_key: Test
+        - task_key: Task
           notebook_task:
             notebook_path: demo-project/python.py
             source: GIT
           existing_cluster_id: 1118-153355-9otriw1m
-existing_cluster_id: 1118-153355-9otriw1m
