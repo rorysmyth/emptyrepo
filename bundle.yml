@@ -1,5 +1,0 @@
-name: git_job
-version: 0.1
-config-version: 1
-workspace:
-  profile: DEFAULT
