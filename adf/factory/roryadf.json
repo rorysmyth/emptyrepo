@@ -1,9 +1,0 @@
-{
-	"name": "roryadf",
-	"location": "eastus2",
-	"identity": {
-		"type": "SystemAssigned",
-		"principalId": "85c8b392-1423-438b-815f-76b669b81f58",
-		"tenantId": "9f37a392-f0ae-4280-9796-f1864a10effc"
-	}
-}
